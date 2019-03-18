@@ -2,6 +2,12 @@
 
 > practice2 基于 lab1-answer 完成
 
+[参考1 单步调试和查看BIOS代码](https://chyyuu.gitbooks.io/ucore_os_docs/content/lab1/lab1_5_appendix.html)
+
+[参考2 常用调试命令](https://chyyuu.gitbooks.io/ucore_os_docs/content/lab0/lab0_2_4_2_2_qemu_monitor_debug.html)
+
+[参考3 gdb使用](https://chyyuu.gitbooks.io/ucore_os_docs/content/lab0/lab0_2_3_3_gdb.html)
+
 ## 练习2.1答案
 make lab1-mon 解析：
 ```
