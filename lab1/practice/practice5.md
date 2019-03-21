@@ -1,7 +1,8 @@
 # lab1-practice5
 
 ## 堆栈结构
-|------地址------|-----内容-------|-----说明------|
+```
+|----地址-----|----内容----|-----说明------|
 | 0x00007c00 | start 地址 | bootloader的第一条指令(cli)
 | 0x00007bfc | 0x00007c4f | 
 | 0x00007bf8 | 0x00000000 | last ebp (unknow func（bootmain 函数）)
@@ -55,6 +56,7 @@
 | 0x00007b38 | 0x00007b48 | last ebp (print_stackframe)
 | 0x00007b34 |
 | 0x00007b30 |
+```
 
 具体 print_stackframe 输出结果：
 ![](../img/p9.png)
