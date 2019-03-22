@@ -9,7 +9,7 @@
 |------------------ offset 31-16 ---------------------|
 ```
 
-## idt init 函数
+## idt_init()
 ```
 void
 idt_init(void) {
