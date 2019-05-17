@@ -4,7 +4,7 @@
 ```
 |----地址-----|----内容----|-----说明------|
 | 0x00007c00 | start 地址 | bootloader的第一条指令(cli)
-| 0x00007bfc | 0x00007c4f | 
+| 0x00007bfc | 0x00007c4f | 返回地址，call bootmain 后一条指令
 | 0x00007bf8 | 0x00000000 | last ebp (unknow func（bootmain 函数）)
 | 0x00007bf4 | 0x00000000 | 参二
 | 0x00007bf0 | 0x00000000 | 参一
